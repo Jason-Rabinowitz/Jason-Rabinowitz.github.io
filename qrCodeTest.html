@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script src="qrGenerator.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<html>
+<head>
+<title>Main Page</title>
+</head>
+<body onload="">
+
+<h1>QR Code Test</h1>
+<form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" value=""><br>
+    <label for="userID">User ID:</label><br>
+    <input type="text" id="userID" name="userID" value=""><br><br>
+    <input type="button" value="Generate QR Code" onclick="generateQRPython()">
+</form> 
+<div id="qrCode"></div>
+
+
+
+</body>
+</html> 
