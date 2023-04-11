@@ -5,7 +5,7 @@ function generateQRPython() {
     // var qrcode = new QRCode("qrCode", "https://www.google.com/?firstName=Jason&lastName=Rabinowitz");
     // window.alert("https://www.google.com/?username="+document.getElementById("username").value+"&userID="+document.getElementById("userID").value);
     window.alert("TESTING");
-    window.alert("https://pages.github.iu.edu/jarabino/jarabino.github.io/logStudent.html?username="+document.getElementById("username").value+"&userID="+document.getElementById("userID").value);
+    window.alert("https://jason-rabinowitz.github.io/logStudent.html?username="+document.getElementById("username").value+"&userID="+document.getElementById("userID").value);
     var qrcode = new QRCode("qrCode", "https://pages.github.iu.edu/jarabino/jarabino.github.io/logStudent.html?username="+document.getElementById("username").value+"&userID="+document.getElementById("userID").value);
     // var qrcode = new QRCode("qrCode", "https://www.google.com/?username="+document.getElementById("username").value+"&userID="+document.getElementById("userID").value);
     // window.alert("Done");
