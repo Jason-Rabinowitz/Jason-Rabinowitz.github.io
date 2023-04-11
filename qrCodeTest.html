@@ -13,6 +13,12 @@
     <input type="text" id="username" name="username" value=""><br>
     <label for="userID">User ID:</label><br>
     <input type="text" id="userID" name="userID" value=""><br><br>
+    <label for="event">Event:</label>
+    <select name="event" id="event">
+      <option value="llcTownHall">LLC Town Hall</option>
+      <option value="dishAndDine">Dish and Dine</option>
+      <option value="gameNight">Game Night</option>
+    </select> 
     <input type="button" value="Generate QR Code" onclick="generateQRPython()">
 </form> 
 <div id="qrCode"></div>

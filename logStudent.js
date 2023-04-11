@@ -12,4 +12,6 @@ function getQueryStrings() {
     document.getElementById("username").style.color = "#ff0000";
     document.getElementById("userID").innerHTML = getParameterByName("userID");
     document.getElementById("userID").style.color = "#ff0000";
+    document.getElementById("event").innerHTML = getParameterByName("eventName");
+    document.getElementById("event").style.color = "#ff0000";
 }
